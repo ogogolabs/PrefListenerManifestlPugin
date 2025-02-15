@@ -14,6 +14,8 @@ repositories {
 }
 
 gradlePlugin {
+    website = "https://github.com/ogogolabs/PrefListenerManifestlPugin"
+    vcsUrl = "https://github.com/ogogolabs/PrefListenerManifestlPugin"
     plugins {
         register("ManifestModifier") {
             id = "preflistener-manifest-modifier"
